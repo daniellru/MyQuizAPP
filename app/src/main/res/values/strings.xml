@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyQuizApp</string>
+    <string name="name">Name</string>
+    <string name="main_question">which country does this flag \n belong to?</string>
+</resources>
