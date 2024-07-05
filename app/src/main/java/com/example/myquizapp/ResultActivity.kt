@@ -19,7 +19,7 @@ class ResultActivity : AppCompatActivity() {
 
         tvUserName.text = intent.getStringExtra(Constants.USER_NAME)
         val totalQuestion = intent.getIntExtra(Constants.TOTAL_QUESTIONS, 0)
-        val correctAnswer = intent.getIntExtra(Constants.CORRECT_ANSWERs, 0)
+        val correctAnswer = intent.getIntExtra(Constants.CORRECT_ANSWERS, 0)
         tvUserScore.text = "Your score is $correctAnswer out of $totalQuestion"
 
         if(correctAnswer <= 4){
